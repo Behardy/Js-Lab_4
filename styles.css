@@ -1,0 +1,72 @@
+body{
+    background: url(background.jpg), center;
+        background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+
+}
+main{
+    background-color:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+form{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(179,178,176, 0.6) ;
+   padding: 40px;
+   border-radius: 5px;
+   width: 50vw;
+   height: 50vh;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+input{
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+  justify-content: space-between;
+}
+button{
+    height: 50px;
+    color: gray;
+    margin-top: 15px;
+    background-color: ;
+    border-radius: 20px;
+}
+.card_container{
+      justify-content: center;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    border-radius: 5px;
+    padding: 5px;
+    max-height: 50vh;
+    flex-flow: row wrap;
+
+}
+.contact_card{
+        background-color: rgba(255,255,255,0.8);
+    justify-content: center;
+    height: 20vh;
+    width: 20vw;
+    margin: 20px;
+    flex-flow: row wrap;
+    border-radius: 20px;
+    margin: 10px;
+}
+.delete_card{
+
+    border: black;
+    background: azure;
+    border-radius: 20px;
+}
